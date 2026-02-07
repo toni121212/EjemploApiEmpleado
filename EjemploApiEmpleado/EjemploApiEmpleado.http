@@ -1,0 +1,43 @@
+@EjemploApiEmpleado_HostAddress = https://localhost:7237
+
+GET {{EjemploApiEmpleado_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+POST {{EjemploApiEmpleado_HostAddress}}/api/empleados
+Content-Type: application/json
+
+{
+
+   "id":1,
+   "Nombre":"Luis",
+   "Edad":34,
+   "NEmpleado":1234,
+   "FechaIngreso":"2026-10-29T06:29:11",
+   "Honorarios":true
+}
+
+###
+
+POST {{EjemploApiEmpleado_HostAddress}}/api/empleados
+Content-Type: application/json
+
+{
+  //Empleado
+}
+
+###
+
+POST {{EjemploApiEmpleado_HostAddress}}/api/empleados
+Content-Type: application/json
+
+{
+  //Empleado
+}
+
+###
+
+GET {{EjemploApiEmpleado_HostAddress}}/api/empleados
+
+###
